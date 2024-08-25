@@ -1,0 +1,104 @@
+/* global.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdeff0; /* 부드러운 핑크 배경색 */
+  color: #333; /* 텍스트 기본 색상 */
+  height: 100vh; /* 화면 전체 높이 사용 */
+}
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffeff1; /* 컨테이너에도 같은 배경색 적용 */
+  min-height: 100vh; /* 컨테이너가 화면 전체를 채우도록 설정 */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; /* 흰색 네비게이션 바 */
+  border-bottom: 1px solid #e6a8b8; /* 포인트 색상 */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #787878; /* Home 글자 색상 */
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #787878; /* 로그인, 유저등록 글자 색상 */
+  font: inherit;
+  outline: inherit;
+  font-weight: bold;
+}
+
+.nav-item .icon,
+.nav-left .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.intro-section {
+  margin-top: 50px;
+}
+
+.intro-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #787878; /* Welcome to Word Search Game 글자 색상 */
+}
+
+.intro-section h2 {
+  font-size: 24px;
+  color: #bc8291; /* Team Part 01 글자 색상 */
+}
+
+.intro-section p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #6d6875; /* 약간의 대비를 주는 부드러운 회색 */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #ffeff1; /* 버튼 배경색 핑크 */
+  color: #787878; /* 버튼 글자색 */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffe2e5; /* 버튼 호버 시 더 연한 핑크 */
+}
